@@ -1,9 +1,9 @@
-# Your Project's Title...
-Your project's description...
+# EDS Test
+Playground to explore Edge Delivery Services and its capabilities.
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Preview: https://main--eds-test--bubaumann.hlx.page/
+- Live: https://main--eds-test--bubaumann.hlx.live/
 
 ## Installation
 
