@@ -13,8 +13,8 @@
  :root {
   /* colors */
   --color-white: #fff;
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
+  --link-color: #930695;
+  --link-hover-color: #69076a;
   --background-color: #fff;
   --overlay-background-color: #eee;
   --highlight-background-color: #dfa7c7;
@@ -154,11 +154,11 @@ main pre {
 
 a:any-link {
   color: var(--link-color);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--link-hover-color);
 }
 
