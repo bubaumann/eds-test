@@ -1,0 +1,81 @@
+.profiles > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.profiles img {
+  width: 100%;
+}
+
+.profiles > div > div {
+  order: 1;
+  display: flex;
+  flex-flow: column;
+  background-color: var(--color-white);
+  border-radius: var(--card-border-radius-l);
+  padding: var(--spacing-xs);
+  margin-bottom: var(--spacing-s);
+}
+
+.profiles > div > .profiles-img-col {
+  order: 0;
+}
+
+.profiles > div > .profiles-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .profiles > div {
+    /* align-items: top; */
+    flex-direction: unset;
+    gap: 32px;
+  }
+
+  .profiles > div > div {
+    flex: 1;
+    order: unset;
+  }
+}
+
+/* overrides */
+.profiles p {
+  color: var(--color-grey);
+}
+.profiles > div > div > p {
+  flex: 1 0 auto;
+  align-self: center;
+}
+
+.profiles picture img {
+  max-width: 200px;
+}
+.profiles > div > div > p {
+  margin-bottom: 0;
+}
+
+.profiles > div > div > p + p {
+  font-size: 10px;
+  margin-bottom: unset;
+}
+
+.profiles > div > div > p.button-container {
+  width: 100%;
+  flex-grow: 0;
+  font-size: 14px;
+}
+
+.profiles p.button-container a {
+  width: 100%;
+}
+
+.profiles div p:nth-child(1) {
+  line-height: 0;
+  flex-grow: 0;
+}
+
+.profiles div p:nth-child(2) {
+  flex-grow: 3;
+  max-width: 200px;
+}
+
