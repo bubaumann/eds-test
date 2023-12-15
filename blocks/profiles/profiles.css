@@ -59,6 +59,10 @@
   margin-bottom: unset;
 }
 
+.profiles > div > div > p a {
+  color: var( --accent-color);
+}
+
 .profiles > div > div > p.button-container {
   width: 100%;
   flex-grow: 0;

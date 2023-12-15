@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  filter: var(--image-filter-drop-shadow-small);
 }
 
 header nav {

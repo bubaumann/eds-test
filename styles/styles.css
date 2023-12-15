@@ -17,7 +17,7 @@
   --link-hover-color: #69076a;
   --background-color: #fff;
   --overlay-background-color: #eee;
-  --highlight-background-color: #dfa7c7;
+  --highlight-background-color: #eee;
   --text-color: #333;
   --accent-color: #930695;
 
@@ -270,7 +270,7 @@ main .section {
 
 /* section metadata */
 main .section.highlight {
-  background-color: var(--highlight-background-color);
+  background-color: var(--accent-color);
   padding-top: 12px;
 }
 
@@ -279,7 +279,7 @@ main .section.highlight {
 }
 
 .highlight a {
-  color: var(--color-font-grey);
+  color: var(--color-white);
 }
 
 .highlight h1 {
