@@ -1,0 +1,3 @@
+curl -s -i -X POST 'https://admin.hlx.page/form/bubaumann/eds-test/main/example-form.json' \
+--header 'Content-Type: application/json' \
+--data '{"data":{"firstName":"test","favoriteColor": "Red","tellUsSomething":"Green is also nice"}}'
