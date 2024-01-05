@@ -1,5 +1,7 @@
+## Post something to Form ##
 curl -s -i -X POST 'https://admin.hlx.page/form/bubaumann/eds-test/main/example-form.json' \
 --header 'Content-Type: application/json' \
 --data '{"data":{"firstName":"test","favoriteColor": "Red","tellUsSomething":"Green is also nice"}}'
 
+## Purge Cache of index file ##
 curl -s -i -X POST 'https://admin.hlx.page/cache/bubaumann/eds-test/main/index.html'
